@@ -8,7 +8,7 @@
 
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/clojurescript "1.7.170"]
-                 [com.datomic/datomic-free "0.9.5206"]
+                 [com.datomic/datomic-free "0.9.5327" :exclusions [joda-time]]
                  [bidi "1.20.3"]
                  [org.omcljs/om "1.0.0-alpha22"]
                  [ring/ring "1.4.0"]

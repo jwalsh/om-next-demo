@@ -15,6 +15,10 @@
     (reset! servlet-system sys')
     sys'))
 
+(defn -main []
+  (dev-start)
+  (print "Starting development on 8081"))
+
 ;; =============================================================================
 ;; Production
 
